@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
      CARRINHO — dados (persistem entre páginas)
      ========================================== */
   const CART_KEY = 'serena_cart';
-  const WHATS_NUMERO = '5528999086387';
+  const WHATS_NUMERO = '5528999002245';
 
   function getCart(){
     try {
