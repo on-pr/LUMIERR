@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIER — Acessórios, Moda Íntima & Cosméticos</title>
+  <meta name="description" content="Catálogo LUMIER: moda íntima, cosméticos e acessórios pensados para a mulher que se ama.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header-top"> BEM-VINDOS AO <strong>CATÁLOGO LUMIER</strong></div>
+  <header>
+    <div class="header-main">
+      <div class="logoIMG">
+        <a href="index.html">
+          <img src="IMG/lumier-logo-transparente.png" alt="LUMIER — Acessórios, Moda Íntima & Cosméticos">
+        </a>
+      </div>
+
+      <nav>
+        <a href="index.html" class="ativo">Início</a>
+        <a href="lancamentos.html">Lançamentos</a>
+        <a href="cosmeticos.html">Cosméticos</a>
+        <a href="modaintima.html">Moda Íntima</a>
+        <a href="acessórios.html">Acessórios</a>
+      </nav>
+
+      <div class="header-icons">
+        <button class="icon-btn" id="btn-search" aria-label="Buscar">🔍</button>
+        <button class="icon-btn" id="btn-profile" aria-label="Minha conta">👤</button>
+        <button class="icon-btn" id="btn-cart" style="position:relative" aria-label="Carrinho">🛒<span class="cart-badge" id="cart-badge">0</span></button>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div style="background:linear-gradient(135deg,#FBEAF0,#F4C0D1)">
+    <div style="max-width:1200px;margin:0 auto" class="cat-hero cat-hero-rosa">
+    
+      <div>
+        <h1>Acessórios</h1>
+        <p> Peças que unem charme, elegância e versatilidade. <br> Detalhes que realçam sua beleza e personalidade.</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="filtros-bar">
+      <button class="filtro-btn ativo">Todos</button>
+      <button class="filtro-btn">Anel</button>
+      <button class="filtro-btn">Touca de Cetim</button>
+      <button class="filtro-btn">Tiara</button>
+      <button class="filtro-btn">Faixa de cabelo</button>
+      <button class="filtro-btn">Tornozeleira</button>
+       <button class="filtro-btn">Brinco</button>
+      <div class="ordenar">
+        Ordenar por:
+        <select><option>Mais Relevantes</option><option>Menor Preço</option><option>Maior Preço</option><option>Novidades</option></select>
+      </div>
+    </div>
+
+    <!-- DESTAQUES -->
+    <div class="container">
+<div class="prod-grid">
+
+<!-- Tiara para maquiagem -->
+<div class="prod-card" data-categoria="Tiara">
+    <div class="prod-img">
+        <img id="produto60" src="IMG\Tiara para maquiagem - R$12,50.jpeg" alt="Tiara para maquiagem">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Tiara para maquiagem - R$12,50.jpeg" onclick="trocarImagem('produto60',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Tiara para maquiagem</h3>
+        <div class="prod-price">R$ 24,99</div>
+
+        <div class="produto-indisponivel">
+    ❌ Indisponível no momento
+</div>
+</div>
+</div>
+
+<!-- Faixa de cabelo -->
+<div class="prod-card" data-categoria="Faixa de cabelo">
+    <div class="prod-img">
+        <img id="produto89" src="IMG\Faixa de cabelo - R$10,00.jpeg" alt="Faixa de cabelo">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Faixa de cabelo - R$10,00.jpeg" onclick="trocarImagem('produto89',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Faixa de cabelo</h3>
+        <div class="prod-price">R$ 10,00</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20faixa%20de%20cabelo"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+
+
+</div></div>
+
+<!-- Touca de cetim -->
+<div class="prod-card" data-categoria="Touca de Cetim">
+    <div class="prod-img">
+        <img id="produto91" src="IMG\Touca de cetim - R$12,50 (1).jpeg" alt="Touca de cetim">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Touca de cetim - R$12,50 (1).jpeg" onclick="trocarImagem('produto91',this)">
+        <img src="IMG\Touca de cetim - R$12,50 (2).jpeg" onclick="trocarImagem('produto91',this)">
+        
+    </div>
+
+<div class="prod-info">
+        <h3 class="prod-name">Touca de Cetim</h3>
+        <div class="prod-price">R$ 12,50</div>
+
+        <div class="produto-indisponivel">
+    ❌ Indisponível no momento
+</div>
+</div>
+</div>
+
+
+<!-- Tornozeleira Pingente de coração e flor folheada a prata -->
+<div class="prod-card" data-categoria="Tornozeleira">
+    <div class="prod-img">
+        <img id="produto92" src="IMG\Tornozeleira pingente coração e flor folheada a prata, por apenas R$35,00.jpeg" alt="Tornozeleira">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Tornozeleira pingente coração e flor folheada a prata, por apenas R$35,00.jpeg" onclick="trocarImagem('produto92',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Tornozeleira Pingente de coração e flor folheada a prata</h3>
+        <div class="prod-price">R$ 35,00</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20tornozeleira%20pingente%20de%20coração%20e%20flor%20folheada%20a%20prata"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+
+
+</div></div>
+
+
+<!-- Tornozeleira Pingente de coração e flor folheada a prata -->
+<div class="prod-card" data-categoria="Tornozeleira">
+    <div class="prod-img">
+        <img id="produto93" src="IMG\Tornozeleira pingente de concha folheada a prata, por apenas R$29,00.jpeg" alt="Tornozeleira">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Tornozeleira pingente de concha folheada a prata, por apenas R$29,00.jpeg" onclick="trocarImagem('produto93',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Tornozeleira Pingente de concha folheada a prata</h3>
+        <div class="prod-price">R$ 29,00</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20tornozeleira%20pingente%20de%20concha%20folheada%20a%20prata"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+
+
+</div></div>
+
+<!-- Brinco click zircônia  -->
+<div class="prod-card" data-categoria="Brinco">
+    <div class="prod-img">
+        <img id="produto94" src="IMG\Brinco click zircônia - R$69,00 (2).jpeg" alt="Brinco">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Brinco click zircônia - R$69,00.jpeg" onclick="trocarImagem('produto94',this)">
+        <img id="produto94" src="IMG\Brinco click zircônia - R$69,00 (2).jpeg" onclick="trocarImagem('produto94',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Brinco Click Zircônia</h3>
+        <div class="prod-price">R$ 69,00</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20brinco%20click%20zircônia"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+
+
+</div></div>
+
+<!-- Brinco oval boleado -->
+<div class="prod-card" data-categoria="Brinco">
+    <div class="prod-img">
+        <img id="produto95" src="IMG\Brinco oval boleado - R$59,99.jpeg" alt="Brinco">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Brinco oval boleado - R$59,99.jpeg" onclick="trocarImagem('produto95',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Brinco Oval Boleado</h3>
+        <div class="prod-price">R$ 59,99</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20brinco%20oval%20boleado"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+
+
+</div></div>
+
+<!-- Brinco triangular -->
+<div class="prod-card" data-categoria="Brinco">
+    <div class="prod-img">
+        <img id="produto96" src="IMG\Brinco triangular - R$55,00.jpeg" alt="Brinco">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Brinco triangular - R$55,00.jpeg" onclick="trocarImagem('produto96',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Brinco Triangular</h3>
+        <div class="prod-price">R$ 55,00</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20brinco%20triangular"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+
+
+</div></div>
+
+<!-- Anel+Solitário -->
+<div class="prod-card" data-categoria="Anel">
+    <div class="prod-img">
+        <img id="produto97" src="IMG\anel +  solitario= 89,90.jpeg" alt="Anel">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\anel +  solitario= 89,90.jpeg" onclick="trocarImagem('produto97',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Anel + Solitário</h3>
+        <div class="prod-price">R$ 89,90</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20anel%20+%20solitário"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+</div></div>
+
+<!-- Anel+Solitário Dourado com pedras em tom lilás-->
+<div class="prod-card" data-categoria="Anel">
+    <div class="prod-img">
+        <img id="produto98" src="IMG\anel + solitario= 69,90.jpeg" alt="Anel">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\anel + solitario= 69,90.jpeg" onclick="trocarImagem('produto98',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Anel + Solitário Dourado com pedras em tom lilás</h3>
+        <div class="prod-price">R$ 69,90</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20anel%20+%20solitário%20dourado%20com%20pedras%20em%20tom%20lilás"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+</div></div>
+
+<!-- Anel+Solitário Dourado com pedras em tom rosa-claro-->
+<div class="prod-card" data-categoria="Anel">
+    <div class="prod-img">
+        <img id="produto99" src="IMG\anel e solitario R$124,99.jpeg" alt="Anel">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\anel e solitario R$124,99.jpeg" onclick="trocarImagem('produto99',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Anel + Solitário Dourado com pedras em tom rosa-claro</h3>
+        <div class="prod-price">R$ 124,99</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20anel%20+%20solitário%20dourado%20com%20pedras%20em%20tom%20rosa-claro"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+</div></div>
+
+<!-- Anel+Solitário Dourado com pedras cristal incolor-->
+<div class="prod-card" data-categoria="Anel">
+    <div class="prod-img">
+        <img id="produto100" src="IMG\Anel solitário + aparador de aliança - R$99,99.jpeg" alt="Anel">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Anel solitário + aparador de aliança - R$99,99.jpeg" onclick="trocarImagem('produto100',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Anel + Solitário Dourado com pedras cristal incolor</h3>
+        <div class="prod-price">R$ 99,99</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20anel%20+%20solitário%20dourado%20com%20pedras%20cristal%20incolor"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+</div></div>
+
+
+
+</div></div>
+        
+  
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <!-- COLUNA 1 -->
+        <div class="footer-col">
+          <div class="footer-IMG">
+            <a href="index.html">
+              <img src="IMG/logoicone.png" alt="Logo LUMIER">
+            </a>
+          </div>
+
+          <p class="footer-desc">
+            O Catálogo LUMIER oferece o melhor em moda íntima, cosméticos e acessórios.
+          </p>
+
+          <div class="socials">
+            <div class="social-btn">
+              <a href="https://www.instagram.com/lumier_oficiall/" target="_blank" aria-label="Instagram Lumier oficial">
+                <img class="social-icon" src="IMG/—Pngtree—instagram social media icon design_3654775.png" alt="Instagram">
+              </a>
+            </div>
+            <div class="social-btn">
+              <a href="https://www.instagram.com/lumier_acessorioss/" target="_blank" aria-label="Instagram Lumier acessórios">
+                <img class="social-icon" src="IMG/—Pngtree—instagram social media icon design_3654775.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <a href="lancamentos.html">Lançamentos</a>
+          <a href="acessórios.html">Acessórios</a>
+          <a href="cosmeticos.html">Cosméticos</a>
+          <a href="modaintima.html">Moda Íntima</a>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <p>
+            <strong>WhatsApp</strong><br>
+            <a href="https://wa.me/5528999002245" target="_blank">(28) 99900-2245</a>
+          </p>
+        <p>
+            Segunda a Sexta<br>07h às 21h
+          </p>
+          <p>
+            Sábado<br>08h às 18h
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Catálogo LUMIER — Todos os direitos reservados.</span>
+        <div class="pagamentos">
+          <span class="pagto-badge">PIX</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

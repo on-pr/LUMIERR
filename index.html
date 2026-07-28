@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIER — Acessórios, Moda Íntima & Cosméticos</title>
+  <meta name="description" content="Catálogo LUMIER: moda íntima, cosméticos e acessórios pensados para a mulher que se ama.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header-top"> BEM-VINDOS AO <strong>CATÁLOGO LUMIER</strong></div>
+  <header>
+    <div class="header-main">
+      <div class="logoIMG">
+        <a href="index.html">
+          <img src="IMG/lumier-logo-transparente.png" alt="LUMIER — Acessórios, Moda Íntima & Cosméticos">
+        </a>
+      </div>
+
+      <nav>
+        <a href="index.html" class="ativo">Início</a>
+        <a href="lancamentos.html">Lançamentos</a>
+        <a href="cosmeticos.html">Cosméticos</a>
+        <a href="modaintima.html">Moda Íntima</a>
+        <a href="acessórios.html">Acessórios</a>
+      </nav>
+
+      <div class="header-icons">
+        <button class="icon-btn" id="btn-search" aria-label="Buscar">🔍</button>
+        <button class="icon-btn" id="btn-profile" aria-label="Minha conta">👤</button>
+        <button class="icon-btn" id="btn-cart" style="position:relative" aria-label="Carrinho">🛒<span class="cart-badge" id="cart-badge">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-decoration"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="eyebrow">Nova coleção</span>
+        <h1>Acabaram de Chegar<br><em>Novidades</em></h1>
+        <p>Descubra produtinhos pensados para a mulher que se ama. Moda, acessórios e cosméticos em cada detalhe.</p>
+        <a class="btn-hero" href="lancamentos.html">Ver Lançamentos</a>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-blob">
+          <img src="IMG/anel + solitario= 69,90.jpeg" alt="Anel + Solitário Dourado com pedras em tom lilás">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIAS -->
+  <div class="container">
+    <p class="section-subtitle">Navegue por</p>
+    <h2 class="section-title">Categorias</h2>
+    <div class="cats-grid">
+      <a href="lancamentos.html" class="cat-card">
+        <span class="cat-icon">✨</span>
+        <div class="cat-name">Lançamentos</div>
+        <div class="cat-count">+48 novidades</div>
+      </a>
+      <a href="acessórios.html" class="cat-card">
+        <span class="cat-icon">💍</span>
+        <div class="cat-name">Acessórios</div>
+        <div class="cat-count">+320 peças</div>
+      </a>
+      <a href="cosmeticos.html" class="cat-card">
+        <span class="cat-icon">💄</span>
+        <div class="cat-name">Cosméticos</div>
+        <div class="cat-count">+95 produtos</div>
+      </a>
+   
+      <a href="modaintima.html" class="cat-card">
+        <span class="cat-icon">👙</span>
+        <div class="cat-name">Moda Íntima</div>
+        <div class="cat-count">+80 peças</div>
+      </a>
+    </div>
+
+
+    <!-- DESTAQUES -->
+    <div class="mt-section">
+      <h2 class="section-title">Produtos em Destaque</h2>
+      <div class="prod-grid">
+
+        <!-- Kit Sabonete + Hidratante + Esfoliante Melancia -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto84" src="IMG\Kit sabonete + hidratante + esfoliante Melancia - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Melancia">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Melancia - R$69,99.jpeg" onclick="trocarImagem('produto84',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Melancia</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Melancia"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+ <!-- Calcinha Love Strass -->
+<div class="prod-card" data-categoria="Calcinhas">
+    <div class="prod-img">
+        <img id="produto50" src="IMG\Calcinha love strass - R$25,00.jpeg" alt="Calcinha Love Strass">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Calcinha love strass - R$25,00.jpeg" onclick="trocarImagem('produto50',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Calcinha Love Strass</h3>
+        <div class="prod-price">R$ 25,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Calcinha%20Love%20Strass"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Pijama feminino de corações -->
+<div class="prod-card" data-categoria="Pijamas">
+    <div class="prod-img">
+        <img id="produto55" src="IMG\Pijama feminino - R$169,99 (2).jpeg" alt="Pijama feminino de corações">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Pijama feminino - R$169,99 (2).jpeg" onclick="trocarImagem('produto55',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Pijama feminino de corações preto /rosa</h3>
+        <div class="prod-price">R$ 169,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Pijama%20feminino%20de%20corações%20preto%20/%20rosa"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Conjunto renda, lingerie sexy azul -->
+<div class="prod-card" data-categoria="Conjuntos">
+    <div class="prod-img">
+        <img id="produto43" src="IMG\Conjunto renda, lingerie sexy… por  R$79,90 (3).jpeg" alt="Conjunto lingerie,lingerie sexy azul">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Conjunto renda, lingerie sexy… por  R$79,90 (3).jpeg" onclick="trocarImagem('produto43',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Conjunto lingerie, lingerie sexy azul</h3>
+        <div class="prod-price">R$ 79,90</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Conjunto%20lingerie%20lingerie%20sexy%20azul"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Conjunto de Renda Roxo -->
+<div class="prod-card" data-categoria="Conjuntos">
+    <div class="prod-img">
+        <img id="produto27" src="IMG/conjunto39_8.jpeg" alt="Conjunto de Renda Roxo">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG/conjunto39_11.jpeg" onclick="trocarImagem('produto27',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Conjunto de Renda Roxo</h3>
+        <div class="prod-price">R$ 39,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Conjunto%20de%20Renda%20Roxo"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Anel+Solitário Dourado com pedras em tom lilás-->
+<div class="prod-card" data-categoria="Anel">
+    <div class="prod-img">
+        <img id="produto98" src="IMG\anel + solitario= 69,90.jpeg" alt="Anel">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\anel + solitario= 69,90.jpeg" onclick="trocarImagem('produto98',this)">
+        
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Anel + Solitário Dourado com pedras em tom lilás</h3>
+        <div class="prod-price">R$ 69,90</div>
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20anel%20+%20solitário%20dourado%20com%20pedras%20em%20tom%20lilás"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+</div></div>
+
+<!-- Calcinha de renda branca -->
+<div class="prod-card" data-categoria="Calcinhas">
+    <div class="prod-img">
+        <img id="produto56" src="IMG\Calcinha de renda - R$14,99 (1).jpeg" alt="Calcinha de renda branca">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Calcinha de renda - R$14,99 (1).jpeg" onclick="trocarImagem('produto56',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Calcinha de renda branca</h3>
+        <div class="prod-price">R$ 14,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Calcinha%20de%20renda%20branca"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+ <!-- Kit Sabonete + Hidratante + Esfoliante Pitaya -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto87" src="IMG\Kit sabonete + hidratante + esfoliante Pitaya - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Pitaya">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Pitaya - R$69,99.jpeg" onclick="trocarImagem('produto87',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Pitaya</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Pessego%20pitaya"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+      </div>
+    </div>
+
+    <!-- DEPOIMENTOS -->
+    <div class="mt-section">
+      <p class="section-subtitle">Avaliações</p>
+      <h2 class="section-title">O que dizem nossas clientes</h2>
+      <div class="depo-grid">
+        <div class="depo-card">
+          <div class="stars">★★★★★</div>
+          <div class="depo-text">"Amei tudo! A qualidade das peças é incrível e chegou super rápido. Já fiz meu segundo pedido!"</div>
+          <div class="depo-autor">— Ana Carolina, SP</div>
+        </div>
+        <div class="depo-card">
+          <div class="stars">★★★★★</div>
+          <div class="depo-text">"O kit facial é maravilhoso, minha pele ficou muito mais hidratada. Super recomendo o catálogo LUMIER!"</div>
+          <div class="depo-autor">— Maria Fernanda, RJ</div>
+        </div>
+        <div class="depo-card">
+          <div class="stars">★★★★☆</div>
+          <div class="depo-text">"Ótimo atendimento, embalagem linda e produto igual ao da foto. Voltarei sempre!"</div>
+          <div class="depo-autor">— Juliana C., MG</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <!-- COLUNA 1 -->
+        <div class="footer-col">
+          <div class="footer-IMG">
+            <a href="index.html">
+              <img src="IMG/logoicone.png" alt="Logo LUMIER">
+            </a>
+          </div>
+
+          <p class="footer-desc">
+            O Catálogo LUMIER oferece o melhor em moda íntima, cosméticos e acessórios.
+          </p>
+
+          <div class="socials">
+            <div class="social-btn">
+              <a href="https://www.instagram.com/lumier_oficiall/" target="_blank" aria-label="Instagram Lumier oficial">
+                <img class="social-icon" src="IMG/—Pngtree—instagram social media icon design_3654775.png" alt="Instagram">
+              </a>
+            </div>
+            <div class="social-btn">
+              <a href="https://www.instagram.com/lumier_acessorioss/" target="_blank" aria-label="Instagram Lumier acessórios">
+                <img class="social-icon" src="IMG/—Pngtree—instagram social media icon design_3654775.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <a href="lancamentos.html">Lançamentos</a>
+          <a href="acessórios.html">Acessórios</a>
+          <a href="cosmeticos.html">Cosméticos</a>
+          <a href="modaintima.html">Moda Íntima</a>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <p>
+            <strong>WhatsApp</strong><br>
+            <a href="https://wa.me/5528999002245" target="_blank">(28) 99900-2245</a>
+          </p>
+          <p>
+            Segunda a Sexta<br>07h às 21h
+          </p>
+          <p>
+            Sábado<br>08h às 18h
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Catálogo LUMIER — Todos os direitos reservados.</span>
+        <div class="pagamentos">
+          <span class="pagto-badge">PIX</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

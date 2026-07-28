@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIER — Acessórios, Moda Íntima & Cosméticos</title>
+  <meta name="description" content="Catálogo LUMIER: moda íntima, cosméticos e acessórios pensados para a mulher que se ama.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header-top"> BEM-VINDOS AO <strong>CATÁLOGO LUMIER</strong></div>
+  <header>
+    <div class="header-main">
+      <div class="logoIMG">
+        <a href="index.html">
+          <img src="IMG/lumier-logo-transparente.png" alt="LUMIER — Acessórios, Moda Íntima & Cosméticos">
+        </a>
+      </div>
+
+      <nav>
+        <a href="index.html" class="ativo">Início</a>
+        <a href="lancamentos.html">Lançamentos</a>
+        <a href="cosmeticos.html">Cosméticos</a>
+        <a href="modaintima.html">Moda Íntima</a>
+        <a href="acessórios.html">Acessórios</a>
+      </nav>
+
+      <div class="header-icons">
+        <button class="icon-btn" id="btn-search" aria-label="Buscar">🔍</button>
+        <button class="icon-btn" id="btn-profile" aria-label="Minha conta">👤</button>
+        <button class="icon-btn" id="btn-cart" style="position:relative" aria-label="Carrinho">🛒<span class="cart-badge" id="cart-badge">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  
+  <div style="background:linear-gradient(135deg,#FBEAF0,#F4C0D1)">
+    <div style="max-width:1200px;margin:0 auto" class="cat-hero">
+      
+      <div>
+        <h1>Cosméticos</h1>
+        <p>Maquiagem, cuidados com a pele, cabelos e perfumes.<br>
+          Beleza que inspira confiança em cada detalhe.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="filtros-bar">
+      <button class="filtro-btn ativo">Todos</button>
+      <button class="filtro-btn">Maquiagem</button>
+      <button class="filtro-btn">Pele</button>
+      <button class="filtro-btn">Sabonete Íntimo</button>
+      <button class="filtro-btn">Perfumes</button>
+      <button class="filtro-btn">Kits</button>
+      <div class="ordenar">Ordenar por:<select><option>Mais Relevantes</option><option>Menor Preço</option><option>Maior Preço</option><option>Novidades</option></select></div>
+    </div>
+ <!-- DESTAQUES -->
+    <div class="container">
+<h2 class="section-title"></h2>
+<div class="prod-grid">
+
+<!-- Paleta de blush Max Love -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto01" src="IMG\Paleta de blush Max love - R$24,99 (1).jpeg" alt="Paleta de blush Max Love">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Paleta de blush Max love - R$24,99 (2).jpeg" onclick="trocarImagem('produto01',this)">
+        <img src="IMG\Paleta de blush Max love - R$24,99 (3).jpeg" onclick="trocarImagem('produto01',this)">
+        <img src="IMG\Paleta de blush Max love - R$24,99 (4).jpeg" onclick="trocarImagem('produto01',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Paleta de blush Max Love</h3>
+        <div class="prod-price">R$ 24,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Paleta%20de%20blush%20Max%20Love"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Lápis de contorno PHÁLLEBEAUTY -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto02" src="IMG\Lápis de contorno PHÁLLEBEAUTY - R$19,99 (2).jpeg" alt="Lápis de contorno PHÁLLEBEAUTY">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Lápis de contorno PHÁLLEBEAUTY - R$19,99 (3).jpeg" onclick="trocarImagem('produto02',this)">
+        <img src="IMG\Lápis de contorno PHÁLLEBEAUTY - R$19,99 (1).jpeg" onclick="trocarImagem('produto02',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Lápis de contorno PHÁLLEBEAUTY</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Lápis%20de%20contorno%20PHÁLLEBEAUTY"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Rímel vivai -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto03" src="IMG\Rímel VIVAI - R$21,00 (1).jpeg" alt="Rímel VIVAI">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Rímel VIVAI - R$21,00 (2).jpeg" onclick="trocarImagem('produto03',this)">
+        <img src="IMG\Rímel VIVAI - R$21,00 (3).jpeg" onclick="trocarImagem('produto03',this)">
+        <img src="IMG\Rímel VIVAI - R$21,00 (4).jpeg" onclick="trocarImagem('produto03',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Rímel VIVAI</h3>
+        <div class="prod-price">R$ 21,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Rímel%20VIVAI"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Prime Max Love -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto04" src="IMG\Prime Max love - R$22,00 (1).jpeg" alt="Prime Max Love">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Prime Max love - R$22,00 (2).jpeg" onclick="trocarImagem('produto04',this)">
+        <img src="IMG\Prime Max love - R$22,00 (3).jpeg" onclick="trocarImagem('produto04',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Prime Max Love</h3>
+        <div class="prod-price">R$ 22,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Prime%20Max%20Love"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Pó Translúcido -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto05" src="IMG\Pó translúcido chocolate VIVAI - 17,00 (2).jpeg" alt="Pó Translúcido">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Pó translúcido chocolate VIVAI - 17,00 (1).jpeg" onclick="trocarImagem('produto05',this)">
+        <img src="IMG\Pó translúcido chocolate VIVAI - 17,00 (1).jpeg" onclick="trocarImagem('produto05',this)">
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Pó Translúcido</h3>
+        <div class="prod-price">R$ 17,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Pó%20Translúcido"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Serum facial -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto06" src="IMG\Serum facial - R$19,99.jpeg" alt="Serum Facial">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Serum facial - R$19,99.jpeg" onclick="trocarImagem('produto06',this)">
+       
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Serum Facial</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Serum%20Facial"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Pó de banana -->
+<div class="prod-card" data-categoria="Maquiagem">
+    <div class="prod-img">
+        <img id="produto07" src="IMG\Pó de banana - R$15,00.jpeg" alt="Pó de banana">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Pó de banana - R$15,00.jpeg" onclick="trocarImagem('produto07',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Pó de banana</h3>
+        <div class="prod-price">R$ 15,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Pó%20de%20banana"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Protetor Solar SUN-->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto08" src="IMG\Protetor solar SUN - 29,99.jpeg" alt="Protetor Solar SUN">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Protetor solar SUN - 29,99.jpeg" onclick="trocarImagem('produto08',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Protetor Solar SUN</h3>
+        <div class="prod-price">R$ 29,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Protetor%20Solar%20SUN"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Mousse facial uva -->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto09" src="IMG\Mousse facial - R$19,99 (1).jpeg" alt="Mousse Facial Uva">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Mousse facial - R$19,99 (1).jpeg" onclick="trocarImagem('produto09',this)">
+        <img src="IMG\Mousse facial - R$19,99 (2).jpeg" onclick="trocarImagem('produto09',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Mousse Facial Uva</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Mousse%20Facial%20Uva"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Mousse facial Melancia -->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto10" src="IMG\Mousse facial - R$19,99 (4).jpeg" alt="Mousse Facial Melancia">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Mousse facial - R$19,99 (4).jpeg" onclick="trocarImagem('produto10',this)">
+        <img src="IMG\Mousse facial - R$19,99 (2).jpeg" onclick="trocarImagem('produto10',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Mousse Facial Melancia</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Mousse%20Facial%20Melancia"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Mousse facial Anti-Oleosidade -->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto11" src="IMG\Mousse facial - R$19,99 (3).jpeg" alt="Mousse Facial Anti-Oleosidade">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Mousse facial - R$19,99 (3).jpeg" onclick="trocarImagem('produto11',this)">
+        <img src="IMG\Mousse facial - R$19,99 (2).jpeg" onclick="trocarImagem('produto11',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Mousse Facial Anti-Oleosidade</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Mousse%20Facial%20Anti-Oleosidade"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Hidranante Alleva -->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto12" src="IMG\Hidratante alleva - R$19,99 (1).jpeg" alt="Hidratante Alleva">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Hidratante alleva - R$19,99 (1).jpeg" onclick="trocarImagem('produto12',this)">
+        <img src="IMG\Hidratante alleva - R$19,99 (2).jpeg" onclick="trocarImagem('produto12',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Hidratante Alleva</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Hidratante%20Alleva"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Esfoliante Pink Green -->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto13" src="IMG\Esfoliante corporal - R$19,99 (1).jpeg" alt="Esfoliante Pink Green">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Esfoliante corporal - R$19,99 (1).jpeg" onclick="trocarImagem('produto13',this)">
+        <img src="IMG\Esfoliante corporal - R$19,99 (2).jpeg" onclick="trocarImagem('produto13',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Esfoliante Pink Green</h3>
+        <div class="prod-price">R$ 19,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Esfoliante%20Pink%20Green"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Esfoliante Corporal uva-->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto14" src="IMG\Esfoliante corporal uva - R$25,00 (1).jpeg" alt="Esfoliante Corporal Uva">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Esfoliante corporal uva - R$25,00 (1).jpeg" onclick="trocarImagem('produto14',this)">
+        <img src="IMG\Esfoliante corporal uva - R$25,00 (2).jpeg" onclick="trocarImagem('produto14',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Esfoliante Corporal Uva</h3>
+        <div class="prod-price">R$ 25,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Esfoliante%20Corporal%20Uva"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Sabonete Íntimo Black Ice-->
+<div class="prod-card" data-categoria="Sabonete Íntimo">
+    <div class="prod-img">
+        <img id="produto15" src="IMG\Sabonete íntimo - R$20,00 (1).jpeg" alt="Sabonete Íntimo Black Ice">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Sabonete íntimo - R$20,00 (1).jpeg" onclick="trocarImagem('produto15',this)">
+        <img src="IMG\Sabonete íntimo - R$20,00 (2).jpeg" onclick="trocarImagem('produto15',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Sabonete Íntimo Black Ice</h3>
+        <div class="prod-price">R$ 20,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Sabonete%20Íntimo%20Black%20Ice"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Sabonete Íntimo Flor de cerejeira-->
+<div class="prod-card" data-categoria="Sabonete Íntimo">
+    <div class="prod-img">
+        <img id="produto16" src="IMG\Sabonete íntimo - R$20,00 (3).jpeg" alt="Sabonete Íntimo Flor de cerejeira">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Sabonete íntimo - R$20,00 (3).jpeg" onclick="trocarImagem('produto16',this)">
+        <img src="IMG\Sabonete íntimo - R$20,00 (2).jpeg" onclick="trocarImagem('produto16',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Sabonete Íntimo Flor de cerejeira</h3>
+        <div class="prod-price">R$ 20,00</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Sabonete%20Íntimo%20Flor%20de%20cerejeira"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Geleia iluminadora Corporal-->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto17" src="IMG\Geleia iluminadora corporal - R$29,99  (1).jpeg" alt="Geleia Iluminadora Corporal">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Geleia iluminadora corporal - R$29,99  (1).jpeg" onclick="trocarImagem('produto17',this)">
+        <img src="IMG\Geleia iluminadora corporal - R$29,99  (2).jpeg" onclick="trocarImagem('produto17',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Geleia Iluminadora Corporal</h3>
+        <div class="prod-price">R$ 29,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Geleia%20Iluminadora%20Corporal"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Hidratante Facial Niacinamida & Bisabolol-->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto18" src="IMG\Hidratante facial - R$24,99 (1).jpeg" alt="Hidratante Facial Niacinamida & Bisabolol">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Hidratante facial - R$24,99 (1).jpeg" onclick="trocarImagem('produto18',this)">
+        <img src="IMG\Hidratante facial - R$24,99 (2).jpeg" onclick="trocarImagem('produto18',this)"
+        >
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Hidratante Facial Niacinamida & Bisabolol</h3>
+        <div class="prod-price">R$ 24,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Hidratante%20Facial%20Niacinamida%20&%20Bisabolol"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Hidratante Facial Chá verde & pepino-->
+<div class="prod-card" data-categoria="Pele">
+    <div class="prod-img">
+        <img id="produto19" src="IMG\Hidratante facial - R$24,99 (3).jpeg" alt="Hidratante Facial Chá verde & pepino">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Hidratante facial - R$24,99 (3).jpeg" onclick="trocarImagem('produto19',this)">
+        <img src="IMG\Hidratante facial - R$24,99 (2).jpeg" onclick="trocarImagem('produto19',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Hidratante Facial Chá verde & pepino</h3>
+        <div class="prod-price">R$ 24,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20na%20Hidratante%20Facial%20Chá%20verde%20&%20pepino"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Abacaxi -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto80" src="IMG\Kit sabonete + hidratante + esfoliante Abacaxi - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Abacaxi">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Abacaxi - R$69,99.jpeg" onclick="trocarImagem('produto80',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Abacaxi</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Abacaxi"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Maça verde -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto82" src="IMG\Kit sabonete + hidratante + esfoliante Maça verde- R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Maça verde">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Maça verde- R$69,99.jpeg" onclick="trocarImagem('produto82',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Maça verde</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Maça%20verde"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Maracuja -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto83" src="IMG\Kit sabonete + hidratante + esfoliante Maracujá - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Maracuja">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Maracujá - R$69,99.jpeg" onclick="trocarImagem('produto83',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Maracuja</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Maracuja"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Melancia -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto84" src="IMG\Kit sabonete + hidratante + esfoliante Melancia - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Melancia">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Melancia - R$69,99.jpeg" onclick="trocarImagem('produto84',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Melancia</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Melancia"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Morango -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto85" src="IMG\Kit sabonete + hidratante + esfoliante Morango - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Morango">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Morango - R$69,99.jpeg" onclick="trocarImagem('produto85',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Morango</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Morango"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Kit Sabonete + Hidratante + Esfoliante Pessego Doce -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto86" src="IMG\Kit sabonete + hidratante + esfoliante Pessego doce- R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Pessego Doce">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Pessego doce- R$69,99.jpeg" onclick="trocarImagem('produto86',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Pessego Doce</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Pessego%20Doce"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+<!-- Kit Sabonete + Hidratante + Esfoliante Pitaya -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto87" src="IMG\Kit sabonete + hidratante + esfoliante Pitaya - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Pitaya">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Pitaya - R$69,99.jpeg" onclick="trocarImagem('produto87',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Pitaya</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Pessego%20pitaya"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Tangerina -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto89" src="IMG\Kit sabonete + hidratante + esfoliante Tangerina- R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Tangerina">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Tangerina- R$69,99.jpeg" onclick="trocarImagem('produto89',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Tangerina</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Tangerina"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+<!-- Kit Sabonete + Hidratante + Esfoliante Tuti fruti -->
+<div class="prod-card" data-categoria="Kits">
+    <div class="prod-img">
+        <img id="produto88" src="IMG\Kit sabonete + hidratante + esfoliante Tuti fruti - R$69,99.jpeg" alt="Kit Sabonete + Hidratante + Esfoliante Tuti fruti">
+    </div>
+
+    <div class="thumbs">
+        <img src="IMG\Kit sabonete + hidratante + esfoliante Tuti fruti - R$69,99.jpeg" onclick="trocarImagem('produto88',this)">
+        
+    </div>
+
+    <div class="prod-info">
+        <h3 class="prod-name">Kit Sabonete + Hidratante + Esfoliante Tuti fruti</h3>
+        <div class="prod-price">R$ 69,99</div>
+
+        <a class="btn-whats"
+        href="https://wa.me/5528999002245?text=Olá,%20tenho%20interesse%20no%20Kit%20Sabonete%20+%20Hidratante%20+%20Esfoliante%20Tuti%20fruti"
+        target="_blank">
+        Comprar no WhatsApp
+        </a>
+    </div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+ <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <!-- COLUNA 1 -->
+        <div class="footer-col">
+          <div class="footer-IMG">
+            <a href="index.html">
+              <img src="IMG/logoicone.png" alt="Logo LUMIER">
+            </a>
+          </div>
+
+          <p class="footer-desc">
+            O Catálogo LUMIER oferece o melhor em moda íntima, cosméticos e acessórios.
+          </p>
+
+          <div class="socials">
+            <div class="social-btn">
+              <a href="https://www.instagram.com/lumier_oficiall/" target="_blank" aria-label="Instagram Lumier oficial">
+                <img class="social-icon" src="IMG/—Pngtree—instagram social media icon design_3654775.png" alt="Instagram">
+              </a>
+            </div>
+            <div class="social-btn">
+              <a href="https://www.instagram.com/lumier_acessorioss/" target="_blank" aria-label="Instagram Lumier acessórios">
+                <img class="social-icon" src="IMG/—Pngtree—instagram social media icon design_3654775.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <a href="lancamentos.html">Lançamentos</a>
+          <a href="acessórios.html">Acessórios</a>
+          <a href="cosmeticos.html">Cosméticos</a>
+          <a href="modaintima.html">Moda Íntima</a>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <p>
+            <strong>WhatsApp</strong><br>
+            <a href="https://wa.me/5528999002245" target="_blank">(28) 99900-2245</a>
+          </p>
+          <p>
+            Segunda a Sexta<br>07h às 21h
+          </p>
+          <p>
+            Sábado<br>08h às 18h
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Catálogo LUMIER — Todos os direitos reservados.</span>
+        <div class="pagamentos">
+          <span class="pagto-badge">PIX</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
